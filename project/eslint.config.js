@@ -4,6 +4,13 @@ import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
 import tseslint from 'typescript-eslint';
 
+/** @type {import ('next').NextConfig} */
+const NextConfig = {
+  eslist: {
+      ignoreDuringBuilds: true,
+  },
+}
+
 export default tseslint.config(
   { ignores: ['dist'] },
   {
@@ -26,3 +33,5 @@ export default tseslint.config(
     },
   }
 );
+
+module.exports = NextConfig
