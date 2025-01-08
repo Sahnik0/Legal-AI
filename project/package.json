@@ -5,7 +5,7 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "engines": {
@@ -26,29 +26,13 @@
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
     "@vercel/node": "^5.0.0",
-    "@vitejs/plugin-react": "^3.1.0",
-    "typescript": "^5.2.2",
-    "vite": "^4.4.0"
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
   },
   "type": "module",
-  "main": "eslint.config.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "main": "eslint.config.js"
 }
