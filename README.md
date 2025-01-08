@@ -2,6 +2,8 @@
 
 Legal AI is a software tool designed to assist Indian men in navigating legal challenges. Built with TypeScript, JavaScript, and HTML, this platform leverages AI technology to provide guidance, information, and resources tailored to legal matters in India.
 
+
+![image](https://github.com/Sahnik0/Legal-AI/blob/5b5f136f49f25096a109452eebdd8f0c9320f7fe/WhatsApp%20Image%202025-01-09%20at%2000.31.29_93962f1c.jpg)
 ---
 
 ## Features
